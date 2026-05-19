@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiến Lên 13 Lá</title>
 
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="game">
+
+  <div id="topPlayer" class="enemy top">
+    <div class="enemy-name">Player 2</div>
+    <div class="enemy-cards" id="topCards"></div>
+  </div>
+
+  <div id="leftPlayer" class="enemy left">
+    <div class="enemy-name">Player 3</div>
+    <div class="enemy-cards vertical" id="leftCards"></div>
+  </div>
+
+  <div id="rightPlayer" class="enemy right">
+    <div class="enemy-name">Player 4</div>
+    <div class="enemy-cards vertical" id="rightCards"></div>
+  </div>
+
+  <div id="centerArea">
+
+    <div id="playedCards"></div>
+
+    <div id="buttons">
+      <button id="playBtn">Đánh</button>
+      <button id="passBtn">Bỏ lượt</button>
+    </div>
+
+  </div>
+
+  <div id="myCards"></div>
+
+</div>
+
+<script src="game.js"></script>
+
+</body>
+                                    </html>
